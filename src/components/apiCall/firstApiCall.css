@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.big-div{
+    background-color: bisque;
+}
+.grid-it{
+    display: grid;
+    padding: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+.styleIt{
+    /* display: grid; */
+    /* grid-template-columns: 3, 1fr; */
+    background-color: white;
+    /* height: 12rem; */
+    border-radius: 0.8rem;
+    padding: 3rem;
+}
+.images{
+    object-fit: cover;
+    width: 24rem;
+    height: 12rem;
+    border-radius: 0.4rem;
+}
